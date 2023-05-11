@@ -6,7 +6,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 export default function About() {
   return (
-    <div>
+    <div className='bg2'>
       <p>About Component</p>      
     </div>
   )
