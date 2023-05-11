@@ -12,8 +12,8 @@ export default function Landing() {
           <Nav.Link className="text-white" href="#home" as={Link} to='/Home'>HOME</Nav.Link>
           <Nav.Link className="text-white" href="#About" as={Link} to='/About'>ABOUT</Nav.Link>
           <Nav.Link className="text-white" href="#Skills" as={Link} to='/Skills'>SKILLS</Nav.Link>
-          <Nav.Link className="text-white" href="#Project">PROJECTS</Nav.Link>
-          <Nav.Link className="text-white" href="#Contact">CONTACT</Nav.Link>
+          <Nav.Link className="text-white" href="#Project" as={Link} to='/Projects'>PROJECTS</Nav.Link>
+          <Nav.Link className="text-white" href="#Contact" as={Link} to='/Contact'>CONTACT</Nav.Link>
         </Nav>
       </Container>
     </Navbar>
