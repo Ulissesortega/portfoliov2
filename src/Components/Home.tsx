@@ -14,9 +14,7 @@ export default function Home() {
     <div className='bg1'>
       <p>Home Component</p>
       <About />
-      <Skills />
-      <Projects />
-      <Contact />
+      
     </div>
   )
 }
