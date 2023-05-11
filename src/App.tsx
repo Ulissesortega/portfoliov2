@@ -12,7 +12,6 @@ import Projects from './Components/Projects';
 import Contact from './Components/Contact';
 
 
-
 function App() {
   return (
     <BrowserRouter>
