@@ -8,7 +8,6 @@ import { TbBrandVscode } from 'react-icons/tb';
 import { SlSocialGithub } from 'react-icons/sl';
 
 
-
 export default function Skills() {
   return (
     <div className='bg1' id='Skills'>
