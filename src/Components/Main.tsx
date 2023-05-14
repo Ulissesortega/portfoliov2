@@ -9,7 +9,7 @@ export default function Main() {
     <div className='bg1 d-flex justify-content-center align-items-center' id="Main">
       <Row className='loc'>
         <Col xs={12} lg={6} className="d-flex justify-content-center align-items-center">
-          <img src={require('../Assets/mando.jpeg')} alt="Logo" className="img-fluid br" width={450} />
+          <img src={require('../Assets/UlisesProfile.jpg')} alt="Logo" className="img-fluid br" width={400} />
         </Col>
         <Col xs={12} lg={6} className="text-center">
           <p className='tf2'>Ulises Ortega</p>

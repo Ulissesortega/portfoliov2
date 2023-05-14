@@ -41,7 +41,7 @@ body {
 }
 
 .br {
-  border-radius: 150px;
+  border-radius: 175px;
 }
 
 .wt {
@@ -62,7 +62,7 @@ body {
 }
 
 .tf2 {
-  color: #0B6EFD;
+  color: #0000FF;
   white-space: nowrap;
   font-size: 85px;
   font-style: italic;
@@ -79,7 +79,7 @@ body {
 
 .tf4 {
   color: white;
-  font-size: 24px;
+  font-size: 35px;
   text-align: justify;
   text-justify: inter-word;
   margin-left: 20px;

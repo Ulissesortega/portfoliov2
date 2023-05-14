@@ -11,7 +11,7 @@ export default function Contact() {
       <Container className=''>
         <Row>
           <Col xs={12} md={8} lg={6} xl={4} className='mx-auto'>
-            <h2 className='tf2 '>Contact Me</h2>
+            <h2 className='tf2 '>Contact Me!</h2>
             <Form>
               <Form.Group controlId='formName'>
                 <Form.Label className='text-white'>NAME:</Form.Label>
