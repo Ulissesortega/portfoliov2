@@ -2,7 +2,11 @@ import React from 'react';
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'react-bootstrap';
-import { FaLinkedin, FaGitSquare, FaHtml5, FaCss3, FaBootstrap, FaWind, FaJs, FaReact, FaCode, FaFigma, FaProjectDiagram, FaMicrochip } from "react-icons/fa";
+import { FaLinkedin, FaGitSquare, FaHtml5, FaCss3, FaBootstrap, FaWind, FaJs, FaReact, FaCode, FaFigma, FaProjectDiagram, FaMicrochip, FaHashtag } from "react-icons/fa";
+import { SiTypescript, SiTailwindcss, SiJavascript,SiOpenai } from 'react-icons/si';
+import { TbBrandVscode } from 'react-icons/tb';
+import { SlSocialGithub } from 'react-icons/sl';
+
 
 
 export default function Skills() {
@@ -48,9 +52,9 @@ export default function Skills() {
           <Col xs={6} md={3} className='d-flex justify-content-center'>
             <button className='img-button'>
               <a href="https://tailwindcss.com/docs/guides/create-react-app" target="_blank">
-                <FaWind className="icon3" size={100} />
+                <SiTailwindcss className="icon3" size={100} />
               </a>
-              <p className='text-white mt-2'>BOOTSTRAP</p>
+              <p className='text-white mt-2'>TAILWIND</p>
             </button>
           </Col>
         </Row>
@@ -58,30 +62,37 @@ export default function Skills() {
         <Row className='mt-5'>
           <Col xs={6} md={3} className='d-flex justify-content-center'>
             <button className='img-button'>
-              <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" className='img-button'>
-                <FaJs className='icon3' size={100} />
-                <p className='text-white mt-2'>JAVASCRIPT</p>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+                <SiJavascript className="icon3" size={100} />
               </a>
+              <p className='text-white mt-2'>JAVASCRIPT</p>
             </button>
           </Col>
 
           <Col xs={6} md={3} className='d-flex justify-content-center'>
-            <button className='img-button' onClick={() => { }}>
-              <FaReact className='icon3' size={100} />
+            <button className='img-button'>
+              <a href="https://react.dev/learn" target="_blank">
+                <FaReact className="icon3" size={100} />
+              </a>
               <p className='text-white mt-2'>REACT</p>
             </button>
           </Col>
 
           <Col xs={6} md={3} className='d-flex justify-content-center'>
-            <button className='img-button' onClick={() => { }}>
-              <FaHtml5 className='icon3' size={100} />
+            <button className='img-button'>
+              <a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank">
+                <FaHashtag className='icon3' size={100} />
+              </a>
+              <p className='text-white mt-2'>CSHARP</p>
             </button>
           </Col>
 
           <Col xs={6} md={3} className='d-flex justify-content-center'>
-            <button className='img-button' onClick={() => { }}>
-              <FaHtml5 className='icon3' size={100} />
-
+            <button className='img-button'>
+              <a href="https://www.typescriptlang.org/docs/" target="_blank">
+                <SiTypescript className='icon3' size={100} />
+              </a>
+              <p className='text-white mt-2'>TYPESCRIPT</p>
             </button>
           </Col>
         </Row>
@@ -89,29 +100,37 @@ export default function Skills() {
         <Row className='mt-5'>
 
           <Col xs={6} md={3} className='d-flex justify-content-center'>
-            <button className='img-button' onClick={() => { }}>
-              <FaCode className='icon3' size={100} />
-              <p className='text-white mt-2'>VS CODE</p>
+            <button className='img-button'>
+              <a href="https://code.visualstudio.com/docs" target="_blank">
+                <TbBrandVscode className='icon3' size={100} />
+              </a>
+              <p className='text-white mt-2'>CSHARP</p>
             </button>
           </Col>
 
           <Col xs={6} md={3} className='d-flex justify-content-center'>
-            <button className='img-button' onClick={() => { }}>
-              <FaFigma className='icon3' size={100} />
+            <button className='img-button'>
+              <a href="https://help.figma.com/hc/en-us/categories/360002051613" target="_blank">
+                <FaFigma className='icon3' size={100} />
+              </a>
               <p className='text-white mt-2'>FIGMA</p>
             </button>
           </Col>
 
           <Col xs={6} md={3} className='d-flex justify-content-center'>
-            <button className='img-button' onClick={() => { }}>
-              <FaProjectDiagram className='icon3' size={100} />
+            <button className='img-button'>
+              <a href="https://docs.github.com/en" target="_blank">
+                <SlSocialGithub className='icon3' size={100} />
+              </a>
               <p className='text-white mt-2'>GITHUB</p>
             </button>
           </Col>
 
           <Col xs={6} md={3} className='d-flex justify-content-center'>
-            <button className='img-button' onClick={() => { }}>
-              <FaMicrochip className='icon3' size={100} />
+            <button className='img-button'>
+              <a href="https://openai.com/product/gpt-4" target="_blank">
+                <SiOpenai className='icon3' size={100} />
+              </a>
               <p className='text-white mt-2'>CHAT GPT</p>
             </button>
           </Col>
