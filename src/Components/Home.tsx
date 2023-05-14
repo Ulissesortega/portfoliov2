@@ -14,7 +14,7 @@ import Contact from './Contact';
 
 export default function Home() {
   return (
-    <div className='bg1'>
+    <div className=''>
       <MyNavbar />
       <Main/>
       <About/>

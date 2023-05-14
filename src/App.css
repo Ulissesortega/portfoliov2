@@ -20,13 +20,23 @@ body {
 }
 
 .bg2 {
-  background-color: royalblue;
+  background-color: #0B6EFD;
   min-height: 100vh;
   overflow: hidden;
 }
 
+.bg3 {
+  background-color: black;
+  min-height: 75vh;
+  overflow: hidden;
+}
+
+
+
 .LinkSpace {
   margin-right: 1px;
+  font-size:x-large;
+  font-style: italic;
   /* Adjust the value as desired */
 }
 
@@ -52,7 +62,7 @@ body {
 }
 
 .tf2 {
-  color: royalblue;
+  color: #0B6EFD;
   white-space: nowrap;
   font-size: 85px;
   font-style: italic;
@@ -61,7 +71,7 @@ body {
 
 .tf3 {
   color: white;
-  font-size: 45px;
+  font-size: 75px;
   white-space: nowrap;
   font-style: italic;
   font-weight: bold;
@@ -77,12 +87,48 @@ body {
   margin-bottom: 105px;
 }
 
+.btncolor{
+background-color:Blue !important ;
+}
+
+
+.icon1{
+  color: Blue;
+  margin-left: 15px;
+}
+
+.icon1:hover{
+  
+}
+
+.icon2{
+  color: Blue;
+}
+
+.icon1:hover{
+  
+}
+
+.icon3{
+  color: fuchsia;
+}
+
+.img-button {
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+
 @media (max-width: 768px) {
   /* Add your styles for this media query here */
   /* For example: */
-  .LinkSpace {
-    margin-right: -15px;
-    /* Adjust the value as desired */
+  .text-white.LinkSpace {
+    text-decoration: none;
+    padding: 12px;
+    font-size: 17px;    
   }
 
   .br {
@@ -115,6 +161,8 @@ body {
     border-radius: 250px;
     height: 3555px;
   }
+
+  
 }
 
 @media (max-width: 390px) {
@@ -135,7 +183,7 @@ body {
   }
 
   .tf2 {
-    font-size: 60px;
+    font-size: 55px;
   }
 
   .tf3 {

@@ -5,7 +5,7 @@ import { Navbar, Container, Nav } from 'react-bootstrap';
 export default function MyNavBar() {
   return (
     <Container>
-    <Navbar className='fixed-top' bg="dark" variant="dark">
+    <Navbar className='fixed-top' bg="primary" variant="dark">
         <Nav className="mx-auto">
           <a className="text-white LinkSpace" href="#" >HOME</a>
           <a className="text-white LinkSpace" href="#About" >ABOUT</a>

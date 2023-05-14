@@ -1,7 +1,7 @@
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Row, Col, Button } from 'react-bootstrap';
-import { FaLinkedin } from 'react-icons/fa';
+import { FaLinkedin, FaGitSquare } from "react-icons/fa";
 
 
 export default function Main() {
@@ -14,16 +14,14 @@ export default function Main() {
         <Col xs={12} lg={6} className="text-center">
           <p className='tf2'>Ulises Ortega</p>
           <p className='tf3'>Jr. Web Developer</p>
-          <div className="d-flex align-items-center justify-content-center">
-            <Button className='mr-3'>RESUME</Button>
-            <Button variant="link" href="https://www.linkedin.com/in/uortega" target="_blank">
-              <img src={require('../Assets/LinkedIn.png')} alt="LinkedIn" className="img-fluid" width={45} />
+          <div className="d-flex align-items-center justify-content-center mt-3">
+            <Button className='rounded-pill btncolor'>RESUME</Button>
+            <Button variant="link" href="https://www.linkedin.com/in/uortega" target="_blank" className="mr-3">
+              <FaLinkedin className='icon1' size={45} />
             </Button>
             <Button variant="link" href="https://github.com/Ulissesortega?tab=repositories" target="_blank">
-              <img src={require('../Assets/GitHub.jpg')} alt="GitHub" className="img-fluid" style={{ borderRadius: '10%' }} width={45} />
+              <FaGitSquare className='icon2 mr-4' size={45} />
             </Button>
-            <FaLinkedin aria-label="Link to Alex's LinkedIn page." />
-
           </div>
         </Col>
       </Row>
