@@ -1,29 +1,152 @@
-.bg1{
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 12px;
+}
+
+.text-white.LinkSpace {
+  text-decoration: none;
+  padding: 12px;
+}
+
+.bg1 {
+  background-color: black;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.bg2 {
   background-color: royalblue;
-  min-width: 100vw;
   min-height: 100vh;
+  overflow: hidden;
 }
 
-.bg2{
-  background-color:aqua;
-  min-width: 100vw;
-  min-height: 100vh;
+.LinkSpace {
+  margin-right: 1px;
+  /* Adjust the value as desired */
 }
 
-.bg3{
-  background-color: royalblue;
-  min-width: 100vw;
-  min-height: 100vh;
+.br {
+  border-radius: 150px;
 }
 
-.bg4{
-  background-color: aqua;
-  min-width: 100vw;
-  min-height: 100vh;
+.wt {
+  color: white;
 }
 
-.bg5{
-  background-color: royalblue;
-  min-width: 100vw;
-  min-height: 100vh;
+.loc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tf1 {
+  color: #F4FDFF;
+  font-size: 45px;
+  white-space: nowrap;
+  font-style: italic;
+}
+
+.tf2 {
+  color: royalblue;
+  white-space: nowrap;
+  font-size: 85px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.tf3 {
+  color: white;
+  font-size: 45px;
+  white-space: nowrap;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.tf4 {
+  color: white;
+  font-size: 24px;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 105px;
+}
+
+@media (max-width: 768px) {
+  /* Add your styles for this media query here */
+  /* For example: */
+  .LinkSpace {
+    margin-right: -15px;
+    /* Adjust the value as desired */
+  }
+
+  .br {
+    width: 440px;
+    border-radius: 150px;
+  }
+
+  .tf1 {
+    font-size: 32px;
+  }
+
+  .tf2 {
+    font-size: 60px;
+  }
+
+  .tf3 {
+    font-size: 45px;
+  }
+
+  .tf4 {
+    font-size: 26px;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+  }
+
+  .brgi{
+    border-radius: 250px;
+    height: 3555px;
+  }
+}
+
+@media (max-width: 390px) {
+  /* Add your styles for this media query here */
+  /* For example: */
+  .LinkSpace {
+    margin-right: -15px;
+    /* Adjust the value as desired */
+  }
+
+  .br {
+    width: 340px;
+    border-radius: 150px;
+  }
+
+  .tf1 {
+    font-size: 32px;
+  }
+
+  .tf2 {
+    font-size: 60px;
+  }
+
+  .tf3 {
+    font-size: 32px;
+  }
+
+  .tf4 {
+    font-size: 18px;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
