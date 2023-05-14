@@ -103,7 +103,7 @@ export default function Skills() {
               <a href="https://code.visualstudio.com/docs" target="_blank">
                 <TbBrandVscode className='icon3' size={100} />
               </a>
-              <p className='text-white mt-2'>CSHARP</p>
+              <p className='text-white mt-2'>VSCODE</p>
             </button>
           </Col>
 
