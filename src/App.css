@@ -1,7 +1,6 @@
-* {
+body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
@@ -27,7 +26,7 @@ body {
 
 .bg3 {
   background-color: black;
-  min-height: 75vh;
+  min-height: 85vh;
   overflow: hidden;
 }
 
@@ -85,9 +84,16 @@ body {
   margin-bottom: 105px;
 }
 
+.tf5 {
+  color: white ;
+  font-size: 25px !important;
+  font-style: italic;
+  
+}
+
 .btncolor{
 background-color:Blue !important ;
-color: white !important;
+color: white !;
 }
 
 
@@ -119,6 +125,7 @@ color: white !important;
   border: none;
   outline: none;
 }
+
 
 
 @media (max-width: 768px) {
@@ -156,12 +163,9 @@ color: white !important;
     margin-bottom: 15px;
   }
 
-  .brgi{
-    border-radius: 250px;
-    height: 3555px;
-  }
-
   
+
+    
 }
 
 @media (max-width: 390px) {
