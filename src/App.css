@@ -31,8 +31,6 @@ body {
   overflow: hidden;
 }
 
-
-
 .LinkSpace {
   margin-right: 1px;
   font-size:x-large;
@@ -89,6 +87,7 @@ body {
 
 .btncolor{
 background-color:Blue !important ;
+color: white !important;
 }
 
 
