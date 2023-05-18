@@ -8,7 +8,8 @@ export default function Footer() {
     <Navbar bg="primary" variant="dark" className="footer">
       <Container className="text-white text-center">
         <Navbar.Brand className="mx-auto" style={{ fontStyle: 'italic' }}>
-          Email: Ulisses.ortega@hotmail.com | Phone: 925.329.2650
+          <span className="d-block d-sm-inline">Email: Ulisses.ortega@hotmail.com</span>
+          <span className="d-sm-none">Phone: 925.329.2650</span>
         </Navbar.Brand>
       </Container>
     </Navbar>

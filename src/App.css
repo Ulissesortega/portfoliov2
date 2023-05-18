@@ -26,15 +26,14 @@ body {
 
 .bg3 {
   background-color: black;
-  min-height: 85vh;
+  min-height: 80vh;
   overflow: hidden;
 }
 
 .LinkSpace {
   margin-right: 1px;
   font-size:x-large;
-  font-style: italic;
-  /* Adjust the value as desired */
+  font-style: italic;  
 }
 
 .br {
@@ -87,13 +86,14 @@ body {
 .tf5 {
   color: white ;
   font-size: 25px !important;
-  font-style: italic;
+  font-style: italic !important;
   
 }
 
 .btncolor{
 background-color:Blue !important ;
-color: white !;
+color: white !important;
+text-decoration: none !important;
 }
 
 
@@ -125,6 +125,13 @@ color: white !;
   border: none;
   outline: none;
 }
+
+.noline{
+  text-decoration: none !important;
+  color: white !;
+}
+
+
 
 
 
@@ -164,6 +171,8 @@ color: white !;
   }
 
   
+  
+  
 
     
 }
@@ -187,10 +196,11 @@ color: white !;
 
   .tf2 {
     font-size: 55px;
+    font-weight: bold;
   }
 
   .tf3 {
-    font-size: 32px;
+    font-size: 55px;
   }
 
   .tf4 {
@@ -200,4 +210,12 @@ color: white !;
     margin-left: 20px;
     margin-right: 20px;
   }
+
+  .tf6{
+    font-size: 35px;    
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+  }
 }
+
