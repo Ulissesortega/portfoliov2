@@ -5,7 +5,7 @@ import { Row, Col } from 'react-bootstrap';
 export default function About() {
   return (
     <div className='bg2'>
-      <div id='About'></div>
+      <div id='About'></div><br/><br/>
       <Row className='justify-content-center align-items-center vh-100'>
         <Col xs={12} md={8} className='text-center mx-3'>
           <h2 className='tf3'>About Me!</h2>

@@ -19,7 +19,7 @@ const Contact = () => {
           toast.success('Email has been sent successfully!', {
             position: 'top-right',
             autoClose: 3000,
-            hideProgressBar: true,
+            hideProgressBar: false,
             closeOnClick: true,
             pauseOnHover: true,
             draggable: false,
