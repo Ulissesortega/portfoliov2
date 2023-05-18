@@ -13,7 +13,7 @@ export default function Main() {
         </Col>
         <Col xs={12} lg={6} className="text-center">
           <p className='tf2'>Ulises Ortega</p>
-          <p className='tf3'>Jr. Web Developer</p>
+          <p className='tf6'>Jr. Web Developer</p>
           <div className="d-flex align-items-center justify-content-center mt-3">
             <Button variant="link" href="https://www.figma.com/proto/IthMxSWsDuikagrC6egUM6/Ulises_Ortega_Resume?type=design&node-id=3-11&scaling=contain&page-id=0%3A1" target="_blank" className='rounded-pill btncolor'>RESUME</Button>
             <Button variant="link" href="https://www.linkedin.com/in/uortega" target="_blank" className="mr-3">
