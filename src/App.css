@@ -33,8 +33,7 @@ body {
 .LinkSpace {
   margin-right: 1px;
   font-size:x-large;
-  font-style: italic;
-  /* Adjust the value as desired */
+  font-style: italic;  
 }
 
 .br {
